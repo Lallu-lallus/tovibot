@@ -15,7 +15,10 @@ logger = logging.getLogger(__name__)
 
 
 PHOTO = [
-    "https://telegra.ph/file/ccc3a1dfc540f9b7b3059.jpg",
+    "https://telegra.ph/file/c2562ff2f3dbaf8dea4cd.jpg",
+    "https://telegra.ph/file/9f7ccefbc5e972ec5e42f.jpg",
+    "https://telegra.ph/file/8610eeef94e22d124a3e5.jpg",
+    "https://telegra.ph/file/aed06600294dc6eccc8f9.jpg",
 ]
 
 @Client.on_message(filters.private & filters.user(ADMINS) & filters.command(["broadcast"]))
@@ -134,7 +137,7 @@ async def start(bot, cmd):
                         InlineKeyboardButton("2 Dev", url="https://t.me/darkz_angel")
                     ],
                     [
-                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Filesharearianarobot?startgroup=true")
+                        InlineKeyboardButton("➕ Add Me To Your Group ➕", url="https://t.me/Dqautofl_bot?startgroup=true")
                     ]
                 ]
             )
